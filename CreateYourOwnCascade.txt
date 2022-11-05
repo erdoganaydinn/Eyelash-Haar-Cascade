@@ -1,0 +1,36 @@
+Link : http://www.mediafire.com/file/1aq02tpidk105fv/dasar_haartrain.rar/file
+
+1:Linkdeki dosyayı indir
+
+2:Eğitmek istediğin obje ile ilgili görselleri ara
+
+3:Görsellerin boyutlarını küçültüp bmp formatına çevir 
+
+4:Görselleri pozitif klasörünün içindeki rawdata klasörüne ekle
+
+5:Negatif klasörü içindeki create_list.bat dosyasını çalıştır.
+-Bu dosya içi boş olan bg.txt dosyasına negatif klasöründeki tüm fotoğrafların isimlerini ekler
+
+6:pozitif klasörünün içindeki objectmarker.exe dosyasını çalıştır
+-Objectmarker.exe dosyası fotoğraflar üzerinde obje seçmemizi sağlar.Objeyi fare ile dörtgen içine aldıktan sonra 
+space tuşuna basarız bu kordinatları alır daha sonra enter tuşu ile kaydedip sonraki görsele geçeriz 
+
+NOT:Negatif klasörünede fotoğraf ekleyebiliriz.
+
+7:samples_creation.bat dosyasını çalıştır.
+-Bu aynı dizine vector adında bir klasör oluşturur
+
+8:haarTraining.bat dosyasını notepad ile açıp npos = pozitif klasöründeki fotoğraf sayısı ,
+nneg = negatif klasöründeki fotoğraf sayısı olarak güncelleriz
+
+9: convert.bat dosyası çalıştırılır. 
+-Bu dosya eğitilen modeli bir xml dosyasına dönüştürür.İşlem bittikten sonra  myhaar.xml adında bir dosya oluşur.
+Daha sonra python dosyamıza dahil ederek Haar Cascadeimizi kullanabiliriz.
+
+
+NOT:Bu eğitilen dosya az sayıda fotoğrafla eğitilmiştir.
+
+
+
+
+
