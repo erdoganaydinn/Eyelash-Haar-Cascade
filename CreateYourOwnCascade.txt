@@ -21,7 +21,7 @@ NOT:Negatif klasörünede fotoğraf ekleyebiliriz.
 -Bu aynı dizine vector adında bir klasör oluşturur
 
 8:haarTraining.bat dosyasını notepad ile açıp npos = pozitif klasöründeki fotoğraf sayısı ,
-nneg = negatif klasöründeki fotoğraf sayısı olarak güncelleriz
+nneg = negatif klasöründeki fotoğraf sayısı olarak günceller ve dosyayı çalıştırırız.
 
 9: convert.bat dosyası çalıştırılır. 
 -Bu dosya eğitilen modeli bir xml dosyasına dönüştürür.İşlem bittikten sonra  myhaar.xml adında bir dosya oluşur.
